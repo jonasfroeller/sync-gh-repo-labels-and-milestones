@@ -1,15 +1,16 @@
 {
-  "name": "github-sync",
-  "version": "0.0.1",
-  "description": "Tool to sync milestones and labels between github repositories (organizations)",
-  "main": "github-sync.js",
+  "name": "gh-repo-elements-sync-tool",
+  "version": "1.0.0",
+  "description": "A simple cli tool to sync milestones and labels between github repositories (organizations)",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jonas Fröller",
+  "license": "MIT",
   "dependencies": {
-    "@octokit/rest": "^18.0.9",
-    "yargs": "^16.1.1"
+    "@octokit/rest": "^18.12.0",
+    "yargs": "^16.2.0"
   }
 }

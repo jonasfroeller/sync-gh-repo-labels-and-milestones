@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const { Octokit } = require("@octokit/rest");
 
-
 const argv = require('yargs/yargs')(process.argv.slice(2))
   .usage('Usage: $0 <command> [options]')
   .options({
@@ -269,4 +268,3 @@ async function syncLabels(argv) {
 
   }
 }
-
