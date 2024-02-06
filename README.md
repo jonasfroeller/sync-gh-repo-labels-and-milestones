@@ -1,5 +1,9 @@
 # Overview
 
+[![npm](https://badgen.net/badge/icon/npm?icon=npm&label)](https://www.npmjs.com)
+[![npm package license](https://badgen.net/npm/license/gh-repo-elements-sync-tool)](https://www.npmjs.com/package/gh-repo-elements-sync-tool)
+[![total npm downloads](https://badgen.net/npm/dt/gh-repo-elements-sync-tool)](https://www.npmjs.com/package/gh-repo-elements-sync-tool)
+
 github-sync.js is a small script to keep in sync labels and milestones across many repositories and organizations. You can also use it to sync github.com repositories with your github enterprise installation. 
 
 ## Installation
